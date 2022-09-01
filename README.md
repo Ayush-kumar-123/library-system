@@ -21,6 +21,8 @@ backend=>nodemon app.js
 
 frountend and backend interact with http requests like(http://localhost:8082/api/books)
 
+backend=(config/db.js)(models/Book.js)(app.js)
+
 ![Screenshot 2022-09-01 220615](https://user-images.githubusercontent.com/59064249/187970191-e9a50164-a624-4294-b357-133acfa238fb.jpg)
 
 
