@@ -1,14 +1,22 @@
 # library-system
-commands 
+commands
+
 npx create-react-app library-system
+
 cd library-system
+
 mkdir backend 
+
 cd backend
+
 npm init -y
+
 npm install express cors mongoose dotenv
+
 npm install -g nodemon
 
 frountend=>npm start
+
 backend=>nodemon app.js
 
 frountend and backend interact with http requests like(http://localhost:8082/api/books)
